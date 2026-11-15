@@ -1,44 +1,80 @@
-<div align="center">🏎️ PIXEL RUSH
-NEON STREETS. INFINITE SPEED.
-A fast-paced 2D arcade traffic-dodging game for Android, built with Kotlin and Jetpack Compose.
-<p>
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-  <img src="https://img.shields.io/badge/Genre-Arcade-FFB000?style=for-the-badge" alt="Arcade">
-</p><p>
-  <a href="#-gameplay">Gameplay</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-car-collection">Car Collection</a> •
-  <a href="#-getting-started">Get Started</a> •
-  <a href="#-controls">Controls</a>
-</p></div>⚡ The idea
-The road is endless. The traffic never stops. How long can you survive?
+ <div align="center">
 
-Pixel Rush is a 2D arcade driving game where you weave through incoming traffic, chase your personal best, and build a collection of vehicles. Every run is a chance to beat your record — and unlock your next ride.
-🎮 Gameplay
+# 🏎️ PIXEL RUSH
+
+### NEON STREETS. INFINITE SPEED.
+
+**A fast-paced 2D arcade traffic-dodging game for Android, built with Kotlin and Jetpack Compose.**
+
+![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Genre](https://img.shields.io/badge/Genre-Arcade-FFB000?style=for-the-badge)
+
+[🎮 Gameplay](#-gameplay) • [✨ Features](#-features) • [🚘 Cars](#-car-collection) • [🛠️ Installation](#-getting-started) • [🕹️ Controls](#-controls)
+
+</div>
+
+---
+
+## ⚡ About the Game
+
+The road is endless. The traffic never stops. **How long can you survive?**
+
+Pixel Rush is a 2D arcade racing game where you dodge incoming traffic, chase your personal best, and unlock a collection of unique vehicles.
+
+Every run is a new challenge. Every second counts. One collision can end everything!
+
+## 🎮 Gameplay
+
 - Dodge incoming vehicles across three traffic lanes.
-- Stay on the road for as long as possible and earn points by passing traffic.
-- The game gets faster as your score increases.
-- One collision ends the run — then it's time to hit Retry and go again.
-- Your best score is saved locally on your device.
-✨ Features
-Feature	Description
-🛣️ Endless arcade action	Continuous traffic, three lanes, and an ever-increasing challenge.
-🚘 Vehicle variety	A collection of 52 vehicle models across multiple styles.
-🏁 Unlockable garage	Earn new rides as your best score reaches milestones.
-🎨 Custom player car	A distinctive, low-profile supercar-inspired design with detailed sporty styling.
-💥 Collision experience	Hit another vehicle and the run ends with a crash animation.
-📈 Personal best	Your best score is stored locally using Android SharedPreferences.
-📱 Touch controls	Swipe left or right to change lanes.
-⚙️ Compose rendering	Game visuals are drawn with Jetpack Compose Canvas.
+- Switch lanes to avoid collisions.
+- Survive as long as possible and earn points.
+- Experience increasing difficulty as the game gets faster.
+- Beat your personal high score.
+- Unlock new cars and build your collection.
 
+## ✨ Features
 
-🚗 Car collection
-Build your lineup by improving your best score. New vehicles become available at score milestones, and you can select any ride you have unlocked in the garage.
+| Feature | Description |
+|---|---|
+| 🛣️ Endless Gameplay | Continuous traffic and an increasing challenge. |
+| 🚘 52 Vehicle Models | A large collection of different vehicle designs. |
+| 🏎️ Sporty Player Car | A distinctive supercar-inspired player vehicle. |
+| 🔓 Unlockable Garage | Unlock vehicles by reaching score milestones. |
+| 💥 Collision System | Crash into traffic and your run ends. |
+| 🏆 High Score | Save and beat your personal best. |
+| 🎨 Custom Graphics | Detailed 2D vehicle designs rendered with Canvas. |
+| 📱 Touch Controls | Simple swipe-based lane switching. |
+
+## 🚗 Car Collection
+
+Build your own garage by reaching new high scores!
+
+- Explore 52 different vehicle models.
+- Unlock new cars as you progress.
+- Choose your favorite unlocked vehicle.
+- See locked vehicles in the garage before unlocking them.
+
 <details>
-<summary><strong>🚙 Explore the vehicle classes</strong></summary>
-The current vehicle catalogue includes:
+<summary>🏎️ Player Car Design</summary>
+
+The player vehicle features a unique sporty supercar-inspired design, including:
+
+- Low-profile aerodynamic body.
+- Wide tyres and detailed alloy wheels.
+- Sharp LED-style headlights.
+- Sculpted side panels and air intakes.
+- Rear vents and diffuser details.
+- Sporty paint and accent styling.
+
+</details>
+
+<details>
+<summary>🚙 Vehicle Categories</summary>
+
+The vehicle collection includes different styles such as:
+
 - Compact cars
 - Sedans
 - Sports cars
@@ -46,75 +82,85 @@ The current vehicle catalogue includes:
 - Vans
 - Trucks
 - Motorcycles
-There are 52 defined vehicle models in the current game code. Locked garage slots remain visible, so you can see which rides are waiting to be unlocked.
-</details><details>
-<summary><strong>🏎️ Player car design</strong></summary>
-The player vehicle has its own sporty supercar-inspired visual treatment, designed to stand apart from the traffic around it. Its details include:
-- Low, angular bodywork
-- Wide tyres and detailed wheels
-- Sharp LED-style headlights
-- Sculpted side sections and air intakes
-- Rear vents, diffuser, and tail-light details
-- Paint-dependent accent styling
-The design is inspired by exotic supercars; it is not an official Lamborghini model or licensed asset.
-</details>🕹️ Controls
-Action	Control
-Move one lane left	Swipe left
-Move one lane right	Swipe right
-Start a run	Tap START RACING
-Choose a vehicle	Open CAR COLLECTION and tap an unlocked car
-Try again after a crash	Tap RETRY
 
+</details>
 
-Tip: Make deliberate lane changes. Traffic gets quicker as your score rises, so plan your next move early.
-🧰 Built with
-- Kotlin — application logic
-- Jetpack Compose — declarative Android UI
-- Compose Canvas — custom 2D game and vehicle rendering
-- Material 3 — interface components
-- Kotlin Coroutines — game loop and timed animations
-- SharedPreferences — local best-score and selected-car persistence
-🚀 Getting started
-Requirements
+## 🕹️ Controls
+
+| Action | Control |
+|---|---|
+| Move left | Swipe left |
+| Move right | Swipe right |
+| Start game | Tap START RACING |
+| Select a car | Open the garage |
+| Restart | Tap RETRY after a crash |
+
+**Tip:** Plan your lane changes early. The traffic becomes faster as your score increases!
+
+## 🛠️ Built With
+
+- **Kotlin** — Main programming language.
+- **Jetpack Compose** — Android UI framework.
+- **Canvas API** — Custom 2D graphics and vehicle rendering.
+- **Material 3** — User interface components.
+- **Kotlin Coroutines** — Timed game operations.
+- **SharedPreferences** — Local game data persistence.
+
+## 🚀 Getting Started
+
+### Requirements
+
 - Android Studio
-- Android SDK configured in Android Studio
-- A device or emulator running a compatible Android version
-Run the project
+- Android SDK
+- Android device or emulator
+
+### Installation
+
 1. Clone this repository:
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-2. Open the cloned project in Android Studio.
-3. Allow Gradle to sync and download the required dependencies.
-4. Connect an Android device or start an emulator.
-5. Press Run ▶ to build and launch the game.
-Replace YOUR_USERNAME and YOUR_REPOSITORY with your GitHub username and repository name.
 
-📂 Project overview
-The game is implemented in Kotlin, with the main gameplay screen, state, drawing logic, vehicle definitions, garage, and progression handled in the app source.
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/example/thelastlantern/
-        │       └── MainActivity.kt   # Main game source (filename may vary)
-        └── AndroidManifest.xml
-Your actual project may contain additional Gradle, resource, theme, and test files. Keep the structure generated by Android Studio.
-🗺️ Roadmap
-Ideas for future development:
-- [ ] Add sound effects and background music
-- [ ] Add more roads, environments, and visual themes
-- [ ] Introduce new traffic patterns and challenges
-- [ ] Add more vehicle customization options
-- [ ] Add screenshots and a gameplay trailer to this README
-🤝 Contributing
-Suggestions, bug reports, and improvements are welcome.
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+2. Open the project in Android Studio.
+3. Wait for Gradle synchronization.
+4. Connect your Android device or start an emulator.
+5. Click **Run ▶** to build and launch the game.
+
+Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub details.
+
+## 🗺️ Future Plans
+
+Some ideas for future updates:
+
+- [ ] Background music and sound effects.
+- [ ] More roads and environments.
+- [ ] New vehicle designs.
+- [ ] More customization options.
+- [ ] Additional gameplay challenges.
+- [ ] Improved visual effects and animations.
+
+## 🤝 Contributing
+
+Contributions, suggestions, and bug reports are welcome!
+
 1. Fork the repository.
-2. Create a branch for your change.
-3. Make your changes and test them.
-4. Open a pull request with a clear description.
-📜 License
-No license has been specified for this repository yet. Add a LICENSE file before presenting the project as open source.
-<div align="center">🏁 READY, SET, RUSH!
-Dodge the traffic. Beat your record. Unlock your dream ride.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
 
-<sub>Made with Kotlin, Jetpack Compose, and a love for arcade games.</sub>
+## 📜 License
+
+No license has been specified yet. A license file can be added when the project is ready for open-source distribution.
+
+---
+
+<div align="center">
+
+# 🏁 READY, SET, RUSH!
+
+**Dodge the traffic. Beat your record. Unlock your dream ride.**
+
+Made with ❤️ using Kotlin and Jetpack Compose.
+
 </div>
