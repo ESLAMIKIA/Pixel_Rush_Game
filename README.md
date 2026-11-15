@@ -1,5 +1,3 @@
- <div align="center">
-
 # 🏎️ PIXEL RUSH
 
 ### NEON STREETS. INFINITE SPEED.
@@ -33,6 +31,56 @@ Every run is a new challenge. Every second counts. One collision can end everyth
 - Experience increasing difficulty as the game gets faster.
 - Beat your personal high score.
 - Unlock new cars and build your collection.
+- ## 📸 Screenshots
+
+<div align="center">
+
+### Take a look inside Pixel Rush
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/user-attachments/assets/e5186f24-a767-481d-8617-04d4af13c954">
+        <img src="https://github.com/user-attachments/assets/e5186f24-a767-481d-8617-04d4af13c954" width="220" alt="Pixel Rush Gameplay"/>
+      </a>
+      <br/>
+      <strong>🎮 Gameplay</strong>
+      <br/>
+      <sub>Dodge traffic and survive.</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/user-attachments/assets/e83c61f5-c1b8-43b1-a682-db0fa5720cee">
+        <img src="https://github.com/user-attachments/assets/e83c61f5-c1b8-43b1-a682-db0fa5720cee" width="220" alt="Pixel Rush Car Collection"/>
+      </a>
+      <br/>
+      <strong>🚘 Car Collection</strong>
+      <br/>
+      <sub>Explore your available vehicles.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/user-attachments/assets/c98fc428-3da4-4992-b15e-5648bdd8e572">
+        <img src="https://github.com/user-attachments/assets/c98fc428-3da4-4992-b15e-5648bdd8e572" width="220" alt="Pixel Rush Garage"/>
+      </a>
+      <br/>
+      <strong>🏎️ Garage</strong>
+      <br/>
+      <sub>Choose your favorite ride.</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/user-attachments/assets/661be4b3-37a8-4d63-b688-5f9946f1d7d9">
+        <img src="https://github.com/user-attachments/assets/661be4b3-37a8-4d63-b688-5f9946f1d7d9" width="220" alt="Pixel Rush Game Over"/>
+      </a>
+      <br/>
+      <strong>💥 Game Over</strong>
+      <br/>
+      <sub>Crash, retry, and beat your record.</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## ✨ Features
 
